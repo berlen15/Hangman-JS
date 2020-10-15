@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>El Ahorcado</title>
+</head>
+<body>
+    <header>
+         <div id="timer"><i class="far fa-clock"></i> Time: <span id='seconds'></span> seconds</div>
+         <div class="lifes" id="div_lifes"></div>
+    </header>
+    
+    <div class="container"> 
+        <h3>HANGMAN JS VANILLA</h3>       
+        <div class="blackboard">
+            <div id="letters"></div>
+        </div>
+
+        <div class="keyboard">
+            <button class="btn btn-info m-2 key" id="a">A</button>
+            <button class="btn btn-info m-2 key" id="b">B</button>
+            <button class="btn btn-info m-2 key" id="c">C</button>
+            <button class="btn btn-info m-2 key" id="d">D</button>
+            <button class="btn btn-info m-2 key" id="e">E</button>
+            <button class="btn btn-info m-2 key" id="f">F</button>
+            <button class="btn btn-info m-2 key" id="g">G</button>
+            <button class="btn btn-info m-2 key" id="h">H</button>
+            <button class="btn btn-info m-2 key" id="i">I</button>
+            <button class="btn btn-info m-2 key" id="j">J</button>
+            <button class="btn btn-info m-2 key" id="k">K</button>
+            <button class="btn btn-info m-2 key" id="l">L</button>
+            <button class="btn btn-info m-2 key" id="m">M</button>
+            <button class="btn btn-info m-2 key" id="n">N</button>
+            <button class="btn btn-info m-2 key" id="ñ">Ñ</button>
+            <button class="btn btn-info m-2 key" id="o">O</button>
+            <button class="btn btn-info m-2 key" id="p">P</button>
+            <button class="btn btn-info m-2 key" id="q">Q</button>
+            <button class="btn btn-info m-2 key" id="r">R</button>
+            <button class="btn btn-info m-2 key" id="s">S</button>
+            <button class="btn btn-info m-2 key" id="t">T</button>
+            <button class="btn btn-info m-2 key" id="u">U</button>
+            <button class="btn btn-info m-2 key" id="v">V</button>
+            <button class="btn btn-info m-2 key" id="w">W</button>
+            <button class="btn btn-info m-2 key" id="x">X</button>
+            <button class="btn btn-info m-2 key" id="y">Y</button>
+            <button class="btn btn-info m-2 key" id="z">Z</button>
+        </div>
+        <div class="divHint">
+            <div class="hintHeader">HINT: <span id="showHint"></span></div>            
+        </div>
+        <div id="resultGame"></div>
+        <div id="stickman"></div>
+        <div id="buttons">
+            <button type="button" id="hintButton" class="btn btn-danger bottom-buttons">Hint!</button>
+            <button type="button" id="playAgainButton" class="btn btn-warning bottom-buttons">Play Again</button>
+            <button type="button" id="pauseButton" class="btn btn-success bottom-buttons">Pause</button>
+            
+        </div>
+    </div>
+</body>        
+</html>
+<script src="scripts.js"></script>

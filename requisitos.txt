@@ -1,0 +1,30 @@
+Base
+Ahorcado en js
+Contador de vidas protegido //Done
+Array con palabras se coge una random //Done
+Colección de pistas por película. //Done
+Usuario puede pedir pista, se quita una vida si se hace //Done
+OBVIAMENTE SE PINTA POR PANTALLA
+Las funciones no pueden tener + de 10 líneas. Una función por tarea, no combinar cosas.
+
+PROPUESTAS
+Objeto Peli (
+    Nombre
+    Pistas [] *se sacan numeradas
+)
+
+Restablecer vidas al iniciar el juego //Done
+
+Contar longitud de la palabra y pintar tantas rallas como caracteres. //Done
+Aparecer letra una vez accertada. //Done 
+
+Mas cosas 
+Lim 3 minutos por partida //Done
+Poner cuenta atrás en el html (en principio segundo más alante min + segs) //Done
+Pantalla de game over //Done
+
+//////////////////////// HASTA AQUÍ EL MÍNIMO ///////////////////////////////////////////////////////////
+
+Aún más cosas (05/10/2020)
+Introducir AJAX en el ahorcado *igual es un poco extra, pero si se puede se intenta
+Guardar estado global, vamos todo: vidas, tiempo, palabra a adivinar, estado de adivinación de esta
